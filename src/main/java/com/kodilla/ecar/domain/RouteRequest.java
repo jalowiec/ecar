@@ -15,6 +15,15 @@ public class RouteRequest {
     private String fuelLevel;
     private String driveType;
 
-
+    @Override
+    public String toString() {
+        return "RouteRequest{" +
+                "fromPlace='" + fromPlace + '\'' +
+                ", toPlace='" + toPlace + '\'' +
+                ", carModel='" + carModel + '\'' +
+                ", fuelLevel='" + fuelLevel + '\'' +
+                ", driveType='" + driveType + '\'' +
+                '}';
+    }
 }
 

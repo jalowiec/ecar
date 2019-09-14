@@ -8,10 +8,6 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/v1/")
 public class RouteRequestController {
 
-//    @RequestMapping(method = RequestMethod.GET, value = "distance")
-//    public Distance getDistance(){
-//        return new Distance(5.00);
-//    }
 
 
     @PostMapping(value = "/routeRequest", consumes = "application/json", produces = "application/json")
@@ -19,6 +15,8 @@ public class RouteRequestController {
         System.out.println(routeRequest.toString());
 
     }
+
+
 
 
 
